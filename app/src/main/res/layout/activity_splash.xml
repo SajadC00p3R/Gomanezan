@@ -8,15 +8,15 @@
     android:gravity="center"
     android:layout_height="match_parent"
     android:background="@drawable/backgroundgradient"
-    tools:context=".Activity.SplashActivity">
+    tools:context=".Activty.SplashActivity">
 
-    <android.support.v7.widget.AppCompatImageView
+    <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/splashactivity__logo_imageview"
         android:layout_width="wrap_content"
         android:layout_height="230dp"
         android:layout_gravity="center"
         android:src="@drawable/dragon5" />
-    <android.support.v7.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/splashactivity__name_textview"
         android:layout_width="wrap_content"
         android:textSize="30sp"
