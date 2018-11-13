@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Gomanezan</string>
+    <string name="app_name_farsi">گمانه زن</string>
+    <string name="title_activity_main">گمانه زن</string>
+    <string name="title_home">بانک کتاب ها</string>
+    <string name="title_dashboard">کتابهای من</string>
+    <string name="title_notifications">داشبورد شخصی</string>
 </resources>

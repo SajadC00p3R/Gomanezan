@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundgradient"
+    tools:context=".Activity.SplashActivity">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/splashactivity__logo_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="230dp"
+        android:layout_gravity="center"
+        android:src="@drawable/dragon5" />
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/splashactivity__name_textview"
+        android:layout_width="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:text="@string/app_name_farsi"
+        android:layout_height="wrap_content" />
+    <ProgressBar
+        android:id="@+id/splashactivity__chrck_progressbar"
+        android:layout_marginTop="20dp"
+        android:indeterminateTint="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
